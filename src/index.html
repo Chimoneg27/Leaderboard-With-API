@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <title>Fifa Ranking Leaderboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-side">
+            <h2>
+                Add Your Score
+            </h2>
+            <form id="form-box">
+                <input type="text" id="playerName" placeholder="Enter Your Name" required>
+                <input type="text" id="scores" placeholder="Enter Your Score" required>
+                <button type="submit" id="form-btn">Submit</button>
+            </form>
+        </div>
+        <div class="leader-side">
+            <div class="leader-header">
+               <h2>The Player Rankings</h2>
+               <button type="submit" id="refresh-btn">Refresh</button> 
+            </div>
+
+            <ul id="table">
+                <li class="table-items">Erling Haaland: 35</li>
+                <li class="table-items">Harry Kane: 30</li>
+                <li class="table-items">Lionel Messi: 30</li>
+                <li class="table-items">Eddie Nketiha: 24</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
