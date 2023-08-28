@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
+
   /* align-items: center; */
   padding: 1rem;
   margin: 3rem auto;
@@ -52,7 +53,7 @@ body {
 }
 
 #playerName {
-padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 #playerName::placeholder {
@@ -66,7 +67,7 @@ padding: 0.5rem;
 }
 
 #scores {
-padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 #table {
