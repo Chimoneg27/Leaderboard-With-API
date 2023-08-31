@@ -17,9 +17,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Awesome Books] <a name="about-project"></a>
+# 📖 [Leaderboard With API] <a name="about-project"></a>
 
-**[Awesome Books]** is a project which makes use of an API to display and update user scores
+**[Leaderboard With API]** is a project which makes use of an API to display and update user scores
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -71,7 +71,7 @@ git clone https://github.com/Chimoneg27/Leaderboard-With-API.git
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd Personal-Portfolio``**
+**``you@your-Pc-name:~$ cd Leaderboard-With-API``**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
