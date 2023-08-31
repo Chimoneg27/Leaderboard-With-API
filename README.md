@@ -33,6 +33,7 @@
     <li>Javascript</li>
     <li>Webpack</li>
     <li>Gitflow</li>
+    <li>Leaderboard API</li>
   </ul>
 </details>
 
@@ -40,6 +41,9 @@
 
 - **[A simple layout based off the provided wireframe design]**
 - **[Minimal styling used in this stage of the project]**
+- **[A leaderboard API with unique ID]**
+- **[A submit button which sends user input to the API]**
+- **[A refresh button which returns the user scores]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,11 +87,9 @@ git clone https://github.com/Chimoneg27/Leaderboard-With-API.git
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[More CSS styling]**
-- [ ] **[An active API]**
 - [ ] **[A proper design layout]**
 - [ ] **[Responsiveness to make it accessible on mobile screens]**
-- [ ] **[A working refresh button]**
-- [ ] **[A working submit button]**
+- [ ] **[Images]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
