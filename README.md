@@ -17,9 +17,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Awesome Books] <a name="about-project"></a>
+# 📖 [Leaderboard With API] <a name="about-project"></a>
 
-**[Awesome Books]** is a project which makes use of an API to display and update user scores
+**[Leaderboard With API]** is a project which makes use of an API to display and update user scores
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,6 +33,7 @@
     <li>Javascript</li>
     <li>Webpack</li>
     <li>Gitflow</li>
+    <li>Leaderboard API</li>
   </ul>
 </details>
 
@@ -40,6 +41,9 @@
 
 - **[A simple layout based off the provided wireframe design]**
 - **[Minimal styling used in this stage of the project]**
+- **[A leaderboard API with unique ID]**
+- **[A submit button which sends user input to the API]**
+- **[A refresh button which returns the user scores]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +71,7 @@ git clone https://github.com/Chimoneg27/Leaderboard-With-API.git
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd Personal-Portfolio``**
+**``you@your-Pc-name:~$ cd Leaderboard-With-API``**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
@@ -83,11 +87,9 @@ git clone https://github.com/Chimoneg27/Leaderboard-With-API.git
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[More CSS styling]**
-- [ ] **[An active API]**
 - [ ] **[A proper design layout]**
 - [ ] **[Responsiveness to make it accessible on mobile screens]**
-- [ ] **[A working refresh button]**
-- [ ] **[A working submit button]**
+- [ ] **[Images]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
