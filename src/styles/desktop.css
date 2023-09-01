@@ -1,0 +1,103 @@
+@media screen and (min-width: 769px) {
+  .container {
+    width: 95%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 1rem;
+    margin: 3rem auto;
+    gap: 1.25rem;
+  }
+
+  #form-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 70%;
+  }
+
+  .form-side h2 {
+    font-size: 1.75rem;
+  }
+
+  .leader-header h2 {
+    font-size: 1.75rem;
+  }
+
+  #refresh-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  #playerName {
+    width: 90%;
+    padding: 0.75rem;
+  }
+
+  #scores {
+    width: 90%;
+    padding: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .container {
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 1rem;
+    margin: 3rem auto;
+    gap: 1.25rem;
+  }
+
+  #form-box {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+  }
+
+  .form-side {
+    width: 45%;
+    padding: 0.5rem;
+  }
+
+  .leader-side {
+    width: 55%;
+    padding: 0.5rem;
+  }
+
+  #form-btn {
+    width: 40%;
+    font-size: 1rem;
+  }
+
+  #playerName {
+    width: 85%;
+  }
+
+  #scores {
+    width: 85%;
+  }
+
+  .leader-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+
+  #refresh-btn {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 40%;
+  }
+
+  .leader-header h2 {
+    width: 60%;
+  }
+}
