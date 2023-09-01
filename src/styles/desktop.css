@@ -1,4 +1,10 @@
 @media screen and (min-width: 769px) {
+  header {
+    padding: .75rem;
+    font-size: 1.75rem;
+    text-align: left;
+  }
+
   .container {
     width: 95%;
     display: flex;
@@ -9,25 +15,41 @@
     gap: 1.25rem;
   }
 
+  #form-box {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+  }
+
   #form-btn {
     padding: 1rem;
     font-size: 1rem;
     font-weight: bold;
-    width: 70%;
+    width: 45%;
   }
 
   .form-side h2 {
     font-size: 1.75rem;
   }
 
+  .leader-header {
+    flex-direction: row;
+    width: 100%;
+  }
+
   .leader-header h2 {
     font-size: 1.75rem;
+    width: 60%;
   }
 
   #refresh-btn {
     padding: 1rem;
     font-size: 1rem;
     font-weight: bold;
+    width: 40%;
   }
 
   #playerName {
@@ -42,6 +64,12 @@
 }
 
 @media screen and (min-width: 1100px) {
+  header {
+    padding: 1.25rem;
+    font-size: 2rem;
+    text-align: left;
+  }
+
   .container {
     width: 90%;
     display: flex;

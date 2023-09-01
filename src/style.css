@@ -22,6 +22,13 @@ body {
   background-color: var(--background);
 }
 
+header {
+  width: 100%;
+  padding: .25rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
 .container {
   width: 90%;
   display: flex;
