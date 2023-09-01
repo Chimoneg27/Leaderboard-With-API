@@ -44,6 +44,7 @@
 - **[A leaderboard API with unique ID]**
 - **[A submit button which sends user input to the API]**
 - **[A refresh button which returns the user scores]**
+- **[Added CSS media queries for responsiveness]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,23 +54,47 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need the following:
-
-- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
-- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
-- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
-- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
-- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
+In order to run this project you need the following tools:
+- Node.js in your computer
+- IDE(e.g.: Vscode,...)
+- Terminal
 
 ### Setup
+Clone this repository to your desired folder by running the following commands in your terminal:
 
-Clone this repository to your desired folder or download the Zip folder:
-
+```sh
+  cd your-prefered-folder-name
+  
+  git clone https://github.com/Chimoneg27/Leaderboard-With-API.git
 ```
-git clone https://github.com/Chimoneg27/Leaderboard-With-API.git
+### Install
+
+- Install this project with:
+
+```sh
+  cd Leaderboard-With-API
+
+  npm install or npm i
 ```
 
-- Navigate to the location of the folder in your machine:
+- Run an optimized build for prodction:
+```
+  npm run build
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+### Run tests
+
+To run tests, run the following command:
+```sh
+  npm run test
+```
 
 **``you@your-Pc-name:~$ cd Leaderboard-With-API``**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,9 +111,8 @@ git clone https://github.com/Chimoneg27/Leaderboard-With-API.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[More CSS styling]**
-- [ ] **[A proper design layout]**
-- [ ] **[Responsiveness to make it accessible on mobile screens]**
+- [ ] **[A reset scores function]**
+- [ ] **[Animated football icon]**
 - [ ] **[Images]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -1,4 +1,5 @@
 import './style.css';
+import './styles/desktop.css';
 import submitScore from './modules/submitScore.js';
 import fetchScore from './modules/fetchScore.js';
 import Data from './modules/inputObj.js';

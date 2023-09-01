@@ -8,6 +8,7 @@ const fetchScore = async () => {
 
   gamesData.forEach((data) => {
     const list = document.createElement('li');
+    list.classList.add('table-items');
     list.textContent = `${data.user}: ${data.score}`;
     scoreList.appendChild(list);
   });
