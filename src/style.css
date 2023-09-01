@@ -4,21 +4,29 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text: #0b140e;
+  --background: #deede4;
+  --primary: #2a4c48;
+  --secondary: #c0d2dd;
+  --accent: #4a7087;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Poppins', 'Times New Roman', Times, serif;
+  color: var(--text);
+  background-color: var(--background);
 }
 
 .container {
   width: 90%;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   justify-content: center;
-
-  /* align-items: center; */
   padding: 1rem;
   margin: 3rem auto;
   gap: 1.25rem;
@@ -26,27 +34,33 @@ body {
 
 #form-box {
   margin-top: 2rem;
-  width: 40%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 
 .form-side {
-  width: 45%;
+  width: 100%;
   padding: 0.5rem;
 }
 
+.form-side h2 {
+  width: 100%;
+  text-align: center;
+}
+
 .leader-side {
-  width: 55%;
+  width: 100%;
   padding: 0.5rem;
 }
 
 #form-btn {
   padding: 0.45rem;
-  width: 30%;
-  background-color: black;
+  width: 80%;
+  background-color: var(--primary);
   color: white;
   border: none;
   outline: none;
@@ -76,30 +90,44 @@ body {
   flex-direction: column;
   gap: 1rem;
   margin-top: 2rem;
+  border: 3px solid var(--primary);
 }
 
 .table-items {
-  border: solid 3px black;
   padding: 0.65rem;
+  font-size: 1.15rem;
+  color: var(--accent);
+  font-weight: 700;
 }
 
-ul li:nth-child(odd) {
-  background: #f9f9f9;
+.table-items:nth-child(odd) {
+  background: var(--text);
+  color: var(--accent);
+  font-size: 1.15rem;
+  font-weight: 700;
 }
 
 .leader-header {
   display: flex;
   width: 100%;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 1.25rem;
+  padding: 0.5rem;
+}
+
+.leader-header h2 {
+  width: 100%;
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 #refresh-btn {
-  padding: 0.45rem;
-  width: 30%;
-  background-color: white;
-  color: black;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  width: 80%;
+  background-color: var(--primary);
+  color: white;
   border: 2px solid black;
   outline: none;
   font-weight: 700;
