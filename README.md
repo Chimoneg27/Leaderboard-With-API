@@ -44,6 +44,8 @@
 - **[A leaderboard API with unique ID]**
 - **[A submit button which sends user input to the API]**
 - **[A refresh button which returns the user scores]**
+- **[CSS styling]**
+- **[CSS media queries]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,9 +88,8 @@ git clone https://github.com/Chimoneg27/Leaderboard-With-API.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[More CSS styling]**
-- [ ] **[A proper design layout]**
-- [ ] **[Responsiveness to make it accessible on mobile screens]**
+- [ ] **[A reset scores function]**
+- [ ] **[Animated football icon]**
 - [ ] **[Images]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
